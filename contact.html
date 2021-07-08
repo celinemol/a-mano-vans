@@ -125,43 +125,37 @@
       <div class="row">
         <div class="col-md-12 col-lg-7 mb-5">
 
-          <form action="mailto:hello@amanovans.com" class="contact-form">
-            
+          <form method="post" name="myemailform" action="form-to-email.php">
             <div class="row form-group">
               <div class="col-md-12 mb-3 mb-md-0">
-                <label class="font-weight-bold" for="fullname">Full Name</label>
-                <input type="text" id="fullname" class="form-control" placeholder="Full Name">
+                <label class="font-weight-bold" for="name">Full Name</label>
+                <input type="text" id="fullname" name="name" class="form-control" placeholder="Full Name">
               </div>
             </div>
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="font-weight-bold" for="email">Email</label>
-                <input type="email" id="email" class="form-control" placeholder="Email Address">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email Address">
               </div>
             </div>
             <div class="row form-group">
               <div class="col-md-12">
-                <label class="font-weight-bold" for="email">Subject</label>
-                <input type="text" id="subject" class="form-control" placeholder="Enter Subject">
+                <label class="font-weight-bold" for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter Subject">
               </div>
             </div>
-  
-  
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="font-weight-bold" for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="5" class="form-control"
+                <textarea name="message" id="message" name="message" cols="30" rows="5" class="form-control"
                   placeholder="Say hello to us"></textarea>
               </div>
             </div>
-  
             <div class="row form-group">
               <div class="col-md-12">
-                <input type="submit" action="send-email" value="Send Message" class="btn btn-primary py-3 px-4">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
               </div>
             </div>
-  
-  
           </form>
         </div>
   
@@ -362,13 +356,25 @@
 
           <div class="col-lg-4 mb-5 mb-lg-0">
             <div class="mb-5">
-              <h3 class="footer-heading mb-4">Watch Live Streaming</h3>
-
+              <h3 class="footer-heading mb-4">Instagram Feed</h3>
+              
               <div class="block-16">
-                <figure>
+                <p>Coming soon!</p>
+                <!-- Place <div> tag where you want the feed to appear -->
+                <!-- <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div> -->
+                <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+                <!-- <script type="text/javascript"> -->
+                  <!-- /* curator-feed-default-feed-layout */ -->
+                  <!-- (function(){ -->
+                    <!-- var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1; -->
+                    <!-- i.src = "https://cdn.curator.io/published/f3fee92c-4eb9-4d3d-96fd-30eb75e83a8e.js"; -->
+                    <!-- e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e); -->
+                  <!-- })(); -->
+                <!-- </script> -->
+                <!-- <figure>
                   <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
                   <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
-                </figure>
+                </figure> -->
               </div>
 
             </div>
