@@ -125,7 +125,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-7 mb-5">
 
-          <form method="post" name="myemailform" action="form-to-email.php">
+          <!-- <form method="post" name="myemailform" action="form-to-email.php">
             <div class="row form-group">
               <div class="col-md-12 mb-3 mb-md-0">
                 <label class="font-weight-bold" for="name">Full Name</label>
@@ -156,7 +156,11 @@
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
               </div>
             </div>
-          </form>
+          </form> -->
+          <div class="col-md-12">
+            <p>Contact form coming soon. In the meantime, please email us directly for a consultation or give us a call.</p>
+            <p><a href="mailto: hello@amanovans.com#" class="btn btn-primary  py-2 px-4">Send Message</a></p>
+          </div>
         </div>
   
         <div class="col-lg-4 ml-auto">
@@ -362,15 +366,6 @@
                 <p>Coming soon!</p>
                 <!-- Place <div> tag where you want the feed to appear -->
                 <!-- <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div> -->
-                <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-                <!-- <script type="text/javascript"> -->
-                  <!-- /* curator-feed-default-feed-layout */ -->
-                  <!-- (function(){ -->
-                    <!-- var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1; -->
-                    <!-- i.src = "https://cdn.curator.io/published/f3fee92c-4eb9-4d3d-96fd-30eb75e83a8e.js"; -->
-                    <!-- e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e); -->
-                  <!-- })(); -->
-                <!-- </script> -->
                 <!-- <figure>
                   <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid rounded">
                   <a href="https://vimeo.com/channels/staffpicks/93951774" class="play-button popup-vimeo"><span class="icon-play"></span></a>
@@ -414,6 +409,15 @@
   <script src="js/circleaudioplayer.js"></script>
 
   <script src="js/main.js"></script>
-    
+  <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+  <script type="text/javascript">
+    /* curator-feed-default-feed-layout */
+      (function(){
+      var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+      i.src = "https://cdn.curator.io/published/f3fee92c-4eb9-4d3d-96fd-30eb75e83a8e.js";
+      e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+      })();
+  </script>
   </body>
+  
 </html>
